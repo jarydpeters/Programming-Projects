@@ -1,6 +1,6 @@
 /*  Temperature Unit Converter
  *  Converts Fahrenheit to Celsius or Celsius to Fahrenheit
- *  Displays values from 300 to 0 degrees in ascending order
+ *  Displays values from 300 to 0 degrees in descending order
  *  Author: Jaryd Peters
  */
 
@@ -36,27 +36,27 @@ int main(void)
     if(startingWithFahr(startingUnit))
     {
         printf("Fahrenheit to Celsius conversion table:\n");
-        fahr = lower;
         upper = 300;
         step  = 20;
+        fahr = upper;
 
-        while(fahr <= upper)
+        while(fahr >= lower)
         {
             printf("%3.0fF %6.1fC\n", fahr, fahrToCels(fahr));
-            fahr += step;
+            fahr -= step;
         }
     }
     else if(startingWithCels(startingUnit))
     {
         printf("Celsius to Fahrenheit conversion table:\n");
-        cels = lower;
         upper = 150;
         step  = 10;
+        cels = upper;
 
-        while(cels <= upper)
+        while(cels >= lower)
         {
             printf("%3.0fC %6.1fF\n", cels, celsToFahr(cels));
-            cels += step;
+            cels -= step;
         }
     }
     else
