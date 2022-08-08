@@ -1,6 +1,6 @@
 /*  Unambiguous Output
  *  
- *  reads in stdin and outputs to stdin with ambiguous character replaced
+ *  reads in stdin and outputs to stdout with ambiguous character replaced
  *  tab       -> \t
  *  backspace -> \b
  *  backslash -> \\
