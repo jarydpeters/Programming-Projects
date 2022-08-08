@@ -1,0 +1,15 @@
+Q: 
+
+How would you test the word count program? What kinds of input are most likely to uncover bugs if there are any?
+
+A: 
+
+Addressing the second question first: edge cases are the most likely to uncover bugs. Situations that stress the nature of the program or challenge potential assumptions the programmer may have may about the structure of input
+
+To address the first question:
+	-Test an empty input
+	-Test an input with only special characters, no standard characters
+	-Test an input with only standard characters, no special characters
+	-Test an input with preceding spaces
+	-Test an input with following spaces
+	-Test an input separated with only special characters and no spaces
