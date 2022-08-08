@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build 1-6",
+            "label": "build X-X",
             "type": "shell",
             "command": "gcc",
             "args":[
