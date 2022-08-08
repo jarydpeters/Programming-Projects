@@ -1,0 +1,1 @@
+This folder contains resources used to facilitate the creation of programs elsewhere in this directory
