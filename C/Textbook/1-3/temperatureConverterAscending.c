@@ -31,7 +31,7 @@ int main(void)
     if(startingWithFahr(startingUnit))
     {
         printf("Fahrenheit to Celsius conversion table:\n");
-        fahr = lower;
+        fahr  = lower;
         upper = 300;
         step  = 20;
 
@@ -44,7 +44,7 @@ int main(void)
     else if(startingWithCels(startingUnit))
     {
         printf("Celsius to Fahrenheit conversion table:\n");
-        cels = lower;
+        cels  = lower;
         upper = 150;
         step  = 10;
 
