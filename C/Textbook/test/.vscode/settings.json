@@ -1,8 +1,6 @@
 {
     "files.associations": {
-        "stdio.h": "c",
-        "ctype.h": "c",
-        "temperatureconversion.h": "c"
+        "stdio.h": "c"
     },
     "terminal.integrated.profiles.windows":{
         "PowerShell": {
