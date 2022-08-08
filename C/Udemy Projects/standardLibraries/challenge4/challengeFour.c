@@ -1,3 +1,10 @@
+/*  Time Elapsed Exercise
+ *
+ *  Uses standard library functions to find and display the seconds elapsed since the beginning of the month
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <time.h>
 

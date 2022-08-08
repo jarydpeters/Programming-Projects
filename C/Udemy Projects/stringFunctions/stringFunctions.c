@@ -1,3 +1,10 @@
+/*  String Functions Tool
+ *
+ *  Reads a user-specified file and finds occurences of a user-specified character within it
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -40,7 +47,7 @@ int main(int argc, char* argv[])
     if(argc != 3)  
     {
         //...print API to user
-        fprintf(stderr, "Usage: %s [filename]\n", argv[0]);
+        fprintf(stderr, "Usage: %s [searched character] [filename]\n", argv[0]);
         //...and send error output and end file execution
         exit(EXIT_FAILURE);
     }

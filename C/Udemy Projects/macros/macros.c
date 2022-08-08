@@ -1,3 +1,10 @@
+/*  Macros Exercise
+ *
+ *  performs simple math operations on user-determined integers using macro functions
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 
 //define SUM macro

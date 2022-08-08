@@ -1,3 +1,11 @@
+/*  Bit Set and Read Exercise
+ *
+ *  Takes in user's input integer value and bit number to be flipped
+ *  Returns new integer based off of binary value created by flipping selected bit
+ *  
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 
 int integerValue;

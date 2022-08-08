@@ -1,8 +1,16 @@
+/*  Bitwise Operators Exercise
+ *
+ *  Performs boolean operations on integer value submitted by user
+ *  includes baseConverter.c for use in base conversion
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 #include <stdbool.h>
-#include "baseConversion.h"
+#include "baseConverter.h"
 #include "boolDefines.h"
 
 int firstInteger;

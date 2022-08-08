@@ -1,3 +1,10 @@
+/*  Sorting Exercise
+ *
+ *  Uses standard library functions to create an array of random numbers, sort them, and print them
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

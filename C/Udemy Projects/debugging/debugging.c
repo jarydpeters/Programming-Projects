@@ -1,3 +1,10 @@
+/*  Debugging Exercise
+ *
+ *  WORK IN PROGRESS
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 
 int main(void)

@@ -1,3 +1,10 @@
+/*  Character Functions Exercise
+ *
+ *  Edits a text file by swapping the case of all letters
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>

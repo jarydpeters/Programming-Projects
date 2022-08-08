@@ -1,3 +1,11 @@
+/*  Bit Stuffing
+ *
+ *  Stores, reads, and modifies parameters of a "box" 
+ *  all "box" parameters are stored a single integer value
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 
 // Expanded int value of 32 bits to stuff with box parameters.

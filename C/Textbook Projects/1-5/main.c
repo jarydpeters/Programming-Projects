@@ -1,7 +1,9 @@
 /*  Temperature Unit Converter
+ *
  *  Converts Fahrenheit to Celsius or Celsius to Fahrenheit
  *  Displays values from 300 to 0 degrees in descending order
  *  Author: Jaryd Peters
+ *
  */
 
 #include <stdio.h>

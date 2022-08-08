@@ -1,3 +1,10 @@
+/*  Multiplication Test Exercise
+ *
+ *  Provides the user with a timed multiplication test using signals
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

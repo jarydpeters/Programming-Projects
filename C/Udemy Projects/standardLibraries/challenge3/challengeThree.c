@@ -1,3 +1,10 @@
+/*  Time Exercise
+ *
+ *  Uses standard library functions to obtain and display system time
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

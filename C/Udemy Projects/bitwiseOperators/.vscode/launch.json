@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bitwiseOperators.exe",
+            "program": "${workspaceFolder}/main.exe",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${fileDirname}",

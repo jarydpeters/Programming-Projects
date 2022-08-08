@@ -1,3 +1,10 @@
+/*  Recursive Reverse tool
+ *
+ *  Reverses a user-defined string using recursion
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 
 char str[128] = "";

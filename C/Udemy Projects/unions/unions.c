@@ -1,3 +1,10 @@
+/*  Unions Exercise
+ *
+ *  Stores and retrieves academic information in a "student" union
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 
 union student{

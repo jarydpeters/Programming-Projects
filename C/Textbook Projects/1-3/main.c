@@ -1,6 +1,8 @@
 /*  Temperature Unit Converter
+ *
  *  Converts Fahrenheit to Celsius or Celsius to Fahrenheit
  *  Displays values from 300 to 0 degrees in ascending order
+ * 
  *  Author: Jaryd Peters
  */
 

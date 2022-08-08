@@ -1,3 +1,10 @@
+/*  Character Functions Exercise
+ *
+ *  Reads in text data from a file and reports how many characters and words are in it using stdlib.h functions
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,10 @@
+/*  Double Pointers Exercise
+ *
+ *  Performs various operations on linked pointers to demonstrate the connections and similarities between them
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <malloc.h>
 

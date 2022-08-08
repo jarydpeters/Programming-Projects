@@ -1,3 +1,10 @@
+/*  Dynamic Library Exercise
+ *
+ *  Modifies several strings using stringFunctions.c which is staticly-linked to dynamicLibraryMain.c
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include "stringFunctions.h"
 

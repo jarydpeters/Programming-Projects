@@ -1,3 +1,10 @@
+/*  Recursive Sum tool
+ *
+ *  Sums every integer up to and including the user-specified value using recursion
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 
 int recursiveSum(int endingInteger);

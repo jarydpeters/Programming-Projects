@@ -1,3 +1,10 @@
+/*  Threads Exercise
+ *
+ *  Demonstrates capabilities of Threads in C
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <pthread.h>
 #include <unistd.h>

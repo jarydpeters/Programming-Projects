@@ -1,3 +1,10 @@
+/*  Random Number Generation Tool
+ *
+ *  Uses standard library functions to create a number of random numbers between -0.5 and 0.5 and prints them
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

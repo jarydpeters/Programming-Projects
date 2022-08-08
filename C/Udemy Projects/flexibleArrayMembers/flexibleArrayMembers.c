@@ -1,3 +1,10 @@
+/*  Flexible Array Members Exercise
+ *
+ *  Creates, fills, and displays a flexible array
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

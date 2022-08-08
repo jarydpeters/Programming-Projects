@@ -1,3 +1,10 @@
+/*  Recursive GCD tool
+ *
+ *  Finds the GCD of a user-specified value using recursion
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 
 int input1 = 0;

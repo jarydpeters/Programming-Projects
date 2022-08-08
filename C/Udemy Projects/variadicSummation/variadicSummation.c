@@ -1,3 +1,10 @@
+/*  Variadic Summation Exercise
+ *
+ *  Contains variadicSummation which can sum a variable amount of integer parameters
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <stdarg.h>
 

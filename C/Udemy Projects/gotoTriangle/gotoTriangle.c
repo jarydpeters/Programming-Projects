@@ -1,3 +1,10 @@
+/*  Goto Triangle Exercise/Tool
+ *
+ *  prints out a hollow asterisk "triangle" or "tree" using goto statements and no loops
+ * 
+ *  Author: Jaryd Peters
+ */
+
 //Note: this is the nastiest "solution" to the asterisk triangle problem that I've ever done. goto's are are the bane of readability and maintainability.
 
 #include <stdio.h>

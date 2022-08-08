@@ -1,3 +1,10 @@
+/*  Function Pointers Exercise
+ *
+ *  Performs math operations on contents of two arrays using function pointers
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <string.h>
 #include <malloc.h>

@@ -1,3 +1,10 @@
+/*  Fork Exercise
+ *
+ *  Demonstrates the capabilities of forks in C
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <unistd.h>
 #include <stdio.h>
 

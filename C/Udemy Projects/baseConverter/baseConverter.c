@@ -1,3 +1,11 @@
+/*  Base Conversion Tool
+ *
+ *  Converts numbers between base-10 and base-2
+ *  Allows user choice in conversion type and amount of conversions
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>

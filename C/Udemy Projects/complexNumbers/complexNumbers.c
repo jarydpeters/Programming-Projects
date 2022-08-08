@@ -1,3 +1,10 @@
+/*  Complex Numbers Exercise
+ *
+ *  Performs mathematical operations using math.h and complex.h
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <math.h>
 #include <complex.h>

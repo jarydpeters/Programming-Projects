@@ -1,3 +1,10 @@
+/*  Networking Exercise
+ *
+ *  simple client setup to demonstrate networking capabilities
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>

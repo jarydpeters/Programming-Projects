@@ -1,3 +1,10 @@
+/*  Variable Length Array Exercise
+ *
+ *  Finds the sum of all integer values of a variable length array
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,10 @@
+/*  Jump Error Recovery Exercise
+ *
+ *  Uses jmp commands to recover from an otherwise unrecoverable error in runtime
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <setjmp.h>
 

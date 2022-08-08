@@ -1,3 +1,10 @@
+/*  String Functions Library
+ *
+ *  Contains several functions that operate on Strings
+ * 
+ *  Author: Jaryd Peters
+ */
+
 int numOfCharInString(char* inputStr, char searchedChar)
 {
     int numOfCharFound = 0;

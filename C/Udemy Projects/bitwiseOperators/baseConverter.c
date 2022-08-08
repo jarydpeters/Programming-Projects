@@ -1,8 +1,16 @@
+/*  Base Conversion Tool
+ *
+ *  Converts numbers between base-10 and base-2
+ *  Allows user choice in conversion type and amount of conversions
+ * 
+ *  Author: Jaryd Peters
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 #include <stdbool.h>
-#include "baseConversion.h"
+#include "baseConverter.h"
 #include "boolDefines.h"
 
 #define decToBin !binToDec //verify behavior works as intended
