@@ -77,8 +77,9 @@ void countWordLenFreq(int lenOfInput)
         //within a word. if statement is formatted to be on multiple lines, but is actually one logical statement
         //e.g.: if(X && X && X && ...)
         if((userInput[i] != ' ') && (userInput[i] != '\0') && (userInput[i] != '\n') 
-                                 && (userInput[i] != '.')  && (userInput[i] != '!') 
-                                 && (userInput[i] != ','))
+                                 && (userInput[i] != '\t') && (userInput[i] != '\b') 
+                                 && (userInput[i] != '.')  && (userInput[i] != ',')
+                                 && (userInput[i] != '!'))
         {     
             //increment current word length counter
             currentWordLength++;
@@ -114,7 +115,7 @@ void countWordLenFreq(int lenOfInput)
     }
     if(DEBUG)
     {
-        for(int i = 0; i < 17; i++)
+        for(int i = 0; i < MAXWORDLENGTH; i++)
         {
             printf("\nindex: %2d, contents: %2d", i, wordLength[i]);
         }
