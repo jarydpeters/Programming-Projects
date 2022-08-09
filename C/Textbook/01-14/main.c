@@ -83,6 +83,9 @@ void countCharFreq(int lenOfInput)
                                  && (userInput[i] != '.')  && (userInput[i] != ',')
                                  && (userInput[i] != '!'))
         {
+            //change userInput[i] to lowercase
+            //subtract 'a' (97) from userInput[i] to offset ASCII values of characters from 97-122 to 0-25
+            //add 1 to change bounds from 0-25 to 1-26
             charFreq[tolower(userInput[i]) - 'a' + 1] += 1;
         }
     }
@@ -103,6 +106,8 @@ void displayCharFreqHistogram(void)
     for(int i = 1; i < NUMOFCOUNTEDCHAR; i++)
     {
         //print letter labels
+        //add 'A' to change bounds from 1-26 to 66-91
+        //subtract 1 to change bounds from 66-91 to 65-90 (A through Z in ASCII)
         printf("\n|%2c: ", (i + 'A' - 1));
 
         //print histogram bars based off of size of wordLength[i]
