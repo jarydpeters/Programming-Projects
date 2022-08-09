@@ -7,9 +7,12 @@
 
 #include <stdio.h>
 
+//max length of any given word is capped at 16
 #define MAXWORDLENGTH     17
+//max length of input from stdin is 256
 #define MAXLENGTHOFINPUT 256
 
+//set to 1 to print out debug statements during execution
 #define DEBUG 0
 
 //word length will hold the frequency of words' lengths.
@@ -23,16 +26,21 @@ int  getLenOfInput(void);
 void countWordLenFreq(int lenOfInput);
 void displayWordLenFreqHistogram(void);
 
+//helper functions to print first and last line formatting so histogram appears in a "box"
 void printTopBorder(void);
 void printBottomBorder(void);
 
 int main(void)
 {
+    //prompt user input
     printf("Enter text to be analyzed for word length frequency:\n");
+    //store user input from stdin to userInput char array
     fgets(userInput, MAXLENGTHOFINPUT, stdin);
 
+    //call countWordLenFreq() function with getLenOfInput() as its parameter
     countWordLenFreq(getLenOfInput());
 
+    //call displayWordLenFreqHistogram() to print results
     displayWordLenFreqHistogram();
 
     return 0;
@@ -40,31 +48,37 @@ int main(void)
 
 int getLenOfInput(void)
 {
-    int lenOfInput = 0;
+    //index = length of input
     int index = 0;
 
+    //as long as the considered index is NOT the null terminator
     while(userInput[index] != '\0')
     {
         if(DEBUG)
         {
             printf("\nuserInput[%2i]: %c", index, userInput[index]);
         }
-        lenOfInput++;
+        //increment index for traversal and for use as return value
         index++;
     }
 
-    return lenOfInput;
+    //index = length of input
+    return index;
 }
 
 void countWordLenFreq(int lenOfInput)
 {
+    //reset currentWordLength for each word (each function call)
     int currentWordLength = 0;
 
     //traverse through entire userInput array
     for(int i = 0; i < lenOfInput; i++)
     {
-        //within a word
-        if((userInput[i] != ' ') && (userInput[i] != '\0') && (userInput[i] != '\n') && (userInput[i] != '.'))
+        //within a word. if statement is formatted to be on multiple lines, but is actually one logical statement
+        //e.g.: if(X && X && X && ...)
+        if((userInput[i] != ' ') && (userInput[i] != '\0') && (userInput[i] != '\n') 
+                                 && (userInput[i] != '.')  && (userInput[i] != '!') 
+                                 && (userInput[i] != ','))
         {     
             //increment current word length counter
             currentWordLength++;
@@ -74,7 +88,6 @@ void countWordLenFreq(int lenOfInput)
                 printf("\nuserInput[%i]: %c", i, userInput[i]);
                 printf("\ncurrentWordLength: %i", currentWordLength);
             }
-            
         }
         //found a space, tab, or newline
         else
@@ -110,6 +123,7 @@ void countWordLenFreq(int lenOfInput)
 
 void displayWordLenFreqHistogram(void)
 {
+    //call top border function to print out top line's formatting
     printTopBorder();
 
     for(int i = 1; i < MAXWORDLENGTH; i++)
@@ -123,13 +137,16 @@ void displayWordLenFreqHistogram(void)
             printf("X");
         }
 
+        //round off each line with the remaining spaces needed
         for(int j = wordLength[i]; j < MAXWORDLENGTH; j++)
         {
             printf(" ");
         }
+        //cap off each line with a vertical bar
         printf("|");
     }
 
+    //call bottom border function to print out bottom line's formatting
     printBottomBorder();
 }
 
@@ -145,11 +162,15 @@ void printTopBorder(void)
 
 void printBottomBorder(void)
 {
+    //print vertical bar that appears on the left side of the bottom row
     printf("\n|");
+
     //print 4 extra underscores to cover the number labels on the beginning of each row
     for(int i = 0; i < (MAXWORDLENGTH + 4); i++)
     {
         printf("_");
     }
+
+    //print vertical bar that appears on the right side of the bottom row
     printf("|");
 }
